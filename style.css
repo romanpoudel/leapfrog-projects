@@ -1,0 +1,38 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+
+th {
+    background-color: darkgreen;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: lightgreen;
+}
+
+tr:nth-child(odd) {
+    background-color: white;
+}
+
+td{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.detail{
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+}
+
+td:nth-child(1){
+    width: 5%;
+}
